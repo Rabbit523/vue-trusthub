@@ -1,0 +1,107 @@
+// DEV prefix
+// -----------
+.dev-logo {
+	width: 180px;
+}
+
+.dev-menu,
+.dev-arrow,
+.dev-icon {
+	cursor: pointer !important;
+}
+.dev-menu {
+	width: 50px !important;
+}
+.dev-arrow {
+	width: 34px !important;
+}
+.dev-icon {
+	width: 40px !important;
+	height: 40px !important;
+}
+.dev-close-white {
+	svg {
+		color: $white !important;
+	}
+}
+.dev-close {
+	background-color: #383838;
+}
+.dev-contain-rightbtns {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dev-contain-leftbtns {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 10px;
+	margin-top: 5px;
+	> li {
+		margin-right: 12px;
+		cursor: pointer;
+	}
+}
+.dev-contain-avatars {
+	display: flex;
+	> * {
+		margin-right: 15px;
+	}
+}
+.dev-pointer {
+	cursor: pointer;
+}
+.dev-lifeproof {
+	border-left: 1px solid white;
+	padding-left: 15px;
+	> p {
+		font-weight: bold;
+	}
+}
+.dev-should-operator {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+// Right Side Menu (for Operators type)
+// ------------------------------------
+#dev-rightslide {
+	.vs-sidebar {
+		max-width: 400px;
+		border-left: 1px solid #5e5e5e;
+		z-index: 99999;
+		padding: 10px;
+	}
+	.header-sidebar {
+		display: flex;
+		justify-content: space-between;
+	}
+	.boxborder {
+		padding-bottom: 15px;
+		border-bottom: 1px solid #5e5e5e33;
+	}
+	.bodyside {
+		> * {
+			margin-top: 10px;
+		}
+		.boxside {
+			display: flex;
+			justify-content: start;
+			align-items: center;
+			> img:not(.this) {
+				margin-right: 20px;
+				width: 50px;
+			}
+			h3 {
+				font-size: 18px;
+				text-transform: uppercase;
+			}
+			p {
+				font-size: 14px;
+			}
+		}
+	}
+}
